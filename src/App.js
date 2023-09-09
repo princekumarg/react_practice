@@ -1,5 +1,6 @@
 import './App.css';
-import Counter from './counter';
+//import Counter from './counter';
+import List from './list';
 //import { useState } from "react";
 function App() {
   /*const [text, setText] = useState("Prince");
@@ -11,7 +12,9 @@ function App() {
       <input type="text" name="content" id="content" onChange={handleChange} />
       {text}
     </div>*/
-    <Counter />
+    //<Counter />
+    <List />
+
   );
 }
 
