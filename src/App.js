@@ -1,6 +1,7 @@
 import './App.css';
 //import Counter from './counter';
-import List from './list';
+//import List from './list';
+import UseEffectExample from './cursorses';
 //import { useState } from "react";
 function App() {
   /*const [text, setText] = useState("Prince");
@@ -13,7 +14,8 @@ function App() {
       {text}
     </div>*/
     //<Counter />
-    <List />
+    //<List />
+    <UseEffectExample />
 
   );
 }
