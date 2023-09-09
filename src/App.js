@@ -1,16 +1,17 @@
 import './App.css';
-import { useState } from "react";
+import Counter from './counter';
+//import { useState } from "react";
 function App() {
-  const [text, setText] = useState("Prince");
+  /*const [text, setText] = useState("Prince");
   const handleChange = (event) => {
     setText(event.target.value);
-  }
+  }*/
   return (
-    <div className="App">
+    /*<div className="App">
       <input type="text" name="content" id="content" onChange={handleChange} />
       {text}
-    </div>
-    
+    </div>*/
+    <Counter />
   );
 }
 
